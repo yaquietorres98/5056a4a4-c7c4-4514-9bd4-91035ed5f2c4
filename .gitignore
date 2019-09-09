@@ -70,3 +70,4 @@ jrebel.lic
 
 .env*
 *.pem
+venv
