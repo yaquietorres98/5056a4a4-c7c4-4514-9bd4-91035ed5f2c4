@@ -17,5 +17,5 @@ class Amortization(object):
         pass
 
     def get_plot(self):
-        """Create a stacked-barplot fig where each bar contains the info: principal, interest"""
+        """Create a plot (fig) to visualize at least two variables from the amortization table."""
         pass
