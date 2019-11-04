@@ -37,7 +37,6 @@ CREATE TABLE IF NOT EXISTS review (
     id UUID,
     wine_id UUID REFERENCES wine(id) ON DELETE CASCADE,
     taster_id UUID REFERENCES taster(id) ON DELETE CASCADE,
-    country_id UUID REFERENCES country(id) ON DELETE CASCADE,
     points NUMERIC,
     price NUMERIC,
     PRIMARY KEY (id)

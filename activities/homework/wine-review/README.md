@@ -2,7 +2,7 @@
 
 This project contains a set of relational tables:
 * **country**: contains information about 240 countries. 
-* **wine**: contains information per wine. 
+* **wine**: contains descriptive data per wine. 
 * **taster**: contains information about 20 recognized wine tasters. 
 * **review**: contains a set of wine reviews. 
 
@@ -10,7 +10,9 @@ This project contains a set of relational tables:
 
 1. Create a branch named `wine`. Upload your files there when finished. 
 1. Complete the `analysis.sql` file with the correct sql-code for each data-request. 
-1. You can answer this exercise with your project group BUT everyone should upload the results to their github branch. 
+1. You can answer this exercise with your project team BUT everyone should upload the results to their github branch. 
+
+For more info about the SQL syntax and functions read the [official postgresql documentation](https://www.postgresql.org/docs/11/index.html). 
 
 ## Setup
 

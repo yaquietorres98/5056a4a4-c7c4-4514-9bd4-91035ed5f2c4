@@ -22,6 +22,7 @@ FROM
     taster
 WHERE
     LOWER(gender) IN ('male', 'female')
+    -- alternative: LOWER(gender) != 'undefined'
 GROUP BY
     gender
 ;
