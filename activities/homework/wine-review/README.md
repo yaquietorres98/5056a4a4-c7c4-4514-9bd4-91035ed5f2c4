@@ -6,9 +6,11 @@ This project contains a set of relational tables:
 * **taster**: contains information about 20 recognized wine tasters. 
 * **review**: contains a set of wine reviews. 
 
+![Wine Database](wine-database.png)
+
 ## Instructions
 
-1. Create a branch named `wine`. Upload your files there when finished. 
+1. Create a branch named `wine`. Upload your solution there when finished. 
 1. Complete the `analysis.sql` file with the correct sql-code for each data-request. 
 1. You can answer this exercise with your project team BUT everyone should upload the results to their github branch. 
 
@@ -35,3 +37,11 @@ Start and configure the services:
 * Start services: `docker-compose up -d`
 * Create the tables: `psql $WINE_DATABASE_LOCAL_URL -f setup.sql`
 * Load data: `psql $WINE_DATABASE_LOCAL_URL -f load.sql`
+
+## Reference
+
+This data is adapted from the following sources: 
+
+* [Wine reviews](https://www.kaggle.com/zynicide/wine-reviews)
+* [World Happiness](https://www.kaggle.com/unsdsn/world-happiness)
+* [Country Code Info](https://countrycode.org/)
