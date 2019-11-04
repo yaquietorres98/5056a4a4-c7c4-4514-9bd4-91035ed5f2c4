@@ -38,7 +38,7 @@ WITH taster_valid AS (
     ), taster_gender_agg AS (
     SELECT
         gender,
-        count(*)::numeric(7,2) AS gender_sum
+        COUNT(*)::numeric(7,2) AS gender_sum
     FROM
         taster_valid
     GROUP BY
@@ -64,13 +64,13 @@ SELECT DISTINCT LEFT(code, 1) FROM country;
 
 SELECT
     LEFT(code, 1) AS first_digit,
-    count(*) AS country_count
+    COUNT(*) AS country_count
 FROM
     country
 GROUP BY
     first_digit
 HAVING
-    count(*) > 20
+    COUNT(*) > 20
 ;
 
 -- EX.5) Get the % of countries are not labeled as a trillion usd gdp and
@@ -79,7 +79,7 @@ SELECT
     100 * COUNT(*) / MAX(t.total) AS "%"
 FROM
     country,
-    (SELECT count(*) AS total FROM country) t
+    (SELECT COUNT(*) AS total FROM country) t
 WHERE
     LOWER(SPLIT_PART(gdp_usd, ' ', 2)) != 'trillion'
     -- alternative: LOWER(gdp_usd) NOT LIKE '%trillion'
