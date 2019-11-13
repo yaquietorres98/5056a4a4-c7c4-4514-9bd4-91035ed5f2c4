@@ -61,5 +61,3 @@ Please add an `issue` if you identify any problem/bug or create a `pull request`
 For further information contact the author:
 * [Rodrigo Hernández Mota](https://rhdzmota.com)
 
-
-This codebase is adapted from a previous work. See more info [here](https://github.com/RHDZMOTA/mdc-scala-challenge). 
