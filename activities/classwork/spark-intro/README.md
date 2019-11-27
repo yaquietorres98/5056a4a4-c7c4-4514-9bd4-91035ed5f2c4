@@ -1,4 +1,4 @@
-# Apache Spark Intro
+ Apache Spark Intro
 
 This project contains a simple word-count exercise based on the [Gutenberg Project](https://www.gutenberg.org/). 
 
